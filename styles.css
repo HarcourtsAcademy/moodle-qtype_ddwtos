@@ -14,7 +14,9 @@
 .que.ddwtos .drop {
     display: inline-block;
     text-align: center;
-    border: 1px solid #000000;
+    border: 1px dashed #000000;
+    box-shadow: inset 2px 2px 4px #444; /* Academy Patch #017 Drag and Drop Question usability improvements */
+    opacity: 0.5;
 }
 .que.ddwtos .draghome, .que.ddwtos .drag {
     display: inline-block;
@@ -43,8 +45,8 @@
 }
 
 .que.ddwtos .drop.yui3-dd-drop-over.yui3-dd-drop-active-valid {
-    border-color: #0a0;
-    box-shadow: 0 0 5px 5px rgba(255, 255, 150, 1);
+    border: 1px solid #0a0;
+    box-shadow: 0 0 3px 3px #09f;
 }
 
 .que.ddwtos .notreadonly .drag {
@@ -62,19 +64,19 @@
 }
 
 .que.ddwtos .group1 {
-    background-color: #FFFFFF;
+    background-color: #FF6; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddwtos .group2 {
-    background-color: #DCDCDC;
+    background-color: #9F9; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddwtos .group3 {
-    background-color: #B0C4DE;
+    background-color: #9CF; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddwtos .group4 {
-    background-color: #D8BFD8;
+    background-color: #F96; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddwtos .group5 {
-    background-color: #87CEFA;
+    background-color: #6FF; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddwtos .group6 {
     background-color: #DAA520;
